@@ -1,3 +1,85 @@
 @charset "utf-8";
 
-//未作成
+h1 {
+  text-align: center;
+
+}
+
+main {
+  text-align: center;
+  width: 1500px;
+
+}
+
+table {
+
+  margin: 0 auto;
+  text-align: center;
+}
+
+th,
+td {
+  border: inset 8px rgb(247, 54, 102);
+  /* 枠線指定 */
+}
+
+table {
+  border-collapse: collapse;
+  /* セルの線を重ねる */
+  width: 1500px;
+  /* 幅指定 */
+}
+
+th {
+  width: 200px;
+  /*幅指定*/
+  height: 60px;
+  font-size: 30px;
+  font-weight: bold;
+  /* 文字の太さ指定 */
+  background-color: bisque;
+}
+
+td {
+  width: 200px;
+  /*幅指定 */
+  height: 200px;
+  font-size: 25px;
+  font-weight: bold;
+  /* 文字の太さ指定 */
+  background-color: rgb(96, 235, 240);
+  opacity: 0,
+}
+
+p {
+  font-size: 20px;
+  font-weight: bold;
+  color: red;
+}
+
+button {
+  all: unset;
+  margin: 0px auto;
+  background-color: blue;
+  color: yellow;
+  font-weight: bold;
+  font-size: 30px;
+  width: 300px;
+  /* 幅指定 */
+  height: 100px;
+  border-radius: 16px;
+  padding: 8px 0;
+  cursor: pointer;
+  box-shadow: 0 8px rgb(1, 1, 73);
+}
+
+button:hover {
+  /*ボタンにカーソル合わせた時の動き*/
+  opacity: .8;
+}
+
+button:active {
+  /*ボタンクリックした際の動き*/
+  box-shadow: 0 3px rgb(1, 1, 73);
+  transform: translateY(5px);
+}
