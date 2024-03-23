@@ -15,7 +15,7 @@
   btn.addEventListener("click", function () {//クリックしたらintRandom関数が実行される
     //重複チェック用配列 //
     const randoms = [];
-    // 最小値, 最大値を決める　（メニューの数）
+    // 最小値, 最大値を決める　（１週間なので1~7）
     const min = 1, max = 7;
     //重複チェックしながら乱数作成 //
     for (let i = min; i <= max; i++) {
